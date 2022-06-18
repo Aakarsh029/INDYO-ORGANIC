@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson" ');
+ 
+*{
+    font-family: 'Crimson', serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+html
+{
+    overflow-x:hidden ;
+    font-size: 60.5%;
+}
+
+
+header
+{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+
+    transition: .2s linear;
+    z-index: 100;
+}
+.header-active
+{
+    top: 0;
+    width: 90%;
+    border-radius: 0;
+}
+header .logo
+{
+    
+    width: 20rem;
+    
+    color: #333;
+    font-size: 3rem;
+}
+header .logo span
+{
+    
+   color: darkgreen; 
+}
+header .navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    margin: 0;
+
+}
+header .navbar ul li{
+    margin:  3rem 1rem;
+    
+}
+header .navbar ul li a{
+    font-size: 3rem;
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    font-weight: bolder;
+    color: #333;
+    transition: .2s linear;
+}
+
+header .navbar ul li .active ,
+header .navbar ul li a:hover
+{
+    color: darkgreen;
+}
+#navbar1
+{
+    background-image: url("2.jpg");
+    width: fit-content;
+
+    background-size: cover;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+ 
+}
+
+
+.container1
+{
+    background-color: darkgreen;
+    padding-top: 12rem;
+    display: flex;
+    justify-content: center;
+}
+.display
+{
+    display: flex;
+}
+.container2
+{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    justify-content: center;
+}
+#h11
+{
+    text-shadow: 20px ;
+    font-size: 10rem;
+    text-align: center;
+    color: white;
+}
+#h12
+{
+    text-align: center;
+    font-size: 5.5rem;
+   
+    color: white;
+}
+#h13
+{
+    font-size: 2.5rem;
+    width: 80rem;
+    color: white;
+    text-align: center;
+
+}
+#h14
+{
+    font-size: 3rem;
+    text-align: center;
+    background-color: orange;
+    color: white;
+    border-radius: 5rem;
+
+}
+.container3
+{
+    display: flex;
+    padding-top: 5rem;
+}
+.container4
+{
+    padding-left: 2rem;
+}
+#h21
+{
+    font-size: 10rem;
+    width: max-content;
+    color: darkgreen;
+    text-align: center;
+}
+#h22
+{
+    font-size: 7.5rem;
+    color: gray;
+    text-align: center;
+}
+#h23
+{
+    font-size: 4.3rem;
+    background-color: orangered;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    border-radius: 4rem;
+}
+#img5
+{
+    height: 35rem;
+}
+.container5
+{
+    padding-left: 6rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
+}
+
+.container6
+{
+    display: flex;
+}
+.container7
+{
+    padding-top: 1.5rem;
+}
+#h41
+{
+    padding-top: 12rem;
+    font-size: 10rem;
+    text-align: center;
+    color: darkgreen;
+}
+.container8
+{
+    display: flex;
+    padding-top: 25rem;
+  
+    justify-content: center;
+}
+.container9
+{
+    background-image: url("7.jpg");
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+    
+    background-size: cover;
+    padding: 10rem;
+    
+}
+.con1{
+    padding-top: 35rem;
+}
+.con2{
+    display: flex;
+  
+    justify-content: center;
+    background-image: url("8.jpg");
+    background-repeat: no-repeat;
+    height: 50rem;
+    background-size: cover;
+}
+
+.con3
+{
+    
+    background-image: url("9.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    margin: 6rem;
+    height: 28rem;
+    padding: 5rem;
+ 
+    
+    background-size: cover;
+}
+#h51
+{
+    font-size: 6rem;
+    text-align: center;
+    font-weight: bolder;
+}
+#h52
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+#h44
+{
+    padding: 3.5rem;
+    text-align: center;
+}
+.con4
+{
+    padding-top: 10rem;
+}
+.con5
+{
+    display: flex;
+    justify-items: center;
+    margin: 3rem;
+}
+.con61
+{
+    background-color: orangered;
+    margin: 3rem;
+    width: 23rem;
+    height: 15rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    animation-name: a1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    
+}
+@keyframes a1 
+{
+    from
+    {
+        width: 0rem;
+    }
+    to
+    {
+        width: 23rem;
+    }
+}
+.con62
+{
+    background-color: orangered;
+    margin: 3rem;
+    width: 23rem;
+    height: 15rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+    animation-name: a2;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+@keyframes a2
+{
+    from
+    {
+        height: 0rem;
+    }
+    to
+    {
+        height: 15rem;
+    }
+}
+.con7
+{
+    display: flex;
+    
+    margin: 3rem;
+    margin-left: 50rem;
+}
+.con8
+{
+    display: flex;
+    margin: 5rem;
+    justify-content: center;
+}
+#i1
+{
+    margin: 2rem;
+    width: 33rem;
+    height: 22rem;
+}
