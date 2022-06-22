@@ -1,0 +1,89 @@
+.split
+{
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 40%,
+        darkgreen 40%,
+        darkgreen 100%
+    );
+    display: flex;
+    justify-content: center;
+}
+.b1
+{
+    margin-top: 10%;
+    background-color: greenyellow;
+    width: 50%;
+    height: 50%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#t11
+{
+    font-size: 2.5rem ;
+    text-align: center;
+    width: 100%;
+    padding: 4rem;
+
+}
+.vertical
+{
+    padding: 2rem;
+    margin-top: 3%;
+    border-left: 6px solid white;
+    height: 40%;
+    position: absolute;
+    left: 50%;
+}
+.bb
+{
+    background-color: darkgreen;
+}
+#hb1
+{
+    color: white;
+    padding-top: 7rem;
+    font-size: 9.5rem;
+    text-align: center;
+}
+#hb2
+{
+    font-size: 2.5rem;
+  
+    color: white;
+    text-align: center;
+
+}
+ .navbarend ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    margin: 0;
+
+}
+ .navbarend ul li{
+    margin:  3rem 1rem;
+    
+}
+ .navbarend ul li a{
+    font-size: 3rem;
+    
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    font-weight: bolder;
+    color: white;
+    transition: .2s linear;
+}
+
+ .navbarend ul li .active ,
+ .navbarend ul li a:hover
+{
+    color: white;
+}

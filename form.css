@@ -1,0 +1,95 @@
+input
+{
+    background-color: darkgreen;
+    color: white;
+}
+::placeholder
+{
+    color: white;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+textarea
+{
+    background-color: darkgreen;
+    color: white;
+    margin: 3vh;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    margin-right: 1vh;
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16pbax; /* Bottom margin */
+    
+  }
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    margin-left: 1vh;
+
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16pbax; /* Bottom margin */
+  
+  }
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: orangered;
+    color: white;
+    font-size: 3vh;
+    margin: 3vh;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .containerr {
+    border-radius: 5px;
+    background-color: darkgreen;
+    padding: 20px;
+   
+  }
+  .submit
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagess
+  {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .i
+  {
+    margin: 3rem;
+  }
+  .i img
+  {
+    width: 60px;
+    height: 60px;
+
+  }
+  #e
+  {
+    color: white;
+    text-align: center;
+  }
+  .te
+  {
+    display: flex;
+    margin: 3vh;
+  }
+  .sub
+  {
+    margin: 3vh;
+  }
