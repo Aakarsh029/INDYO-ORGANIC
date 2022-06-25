@@ -36,6 +36,7 @@ html
   .header li a {
     display: block;
     border-right: 1px solid #f4f4f4;
+    color: darkgreen;
     text-decoration: none;
     font-size: 2.5rem;
   }
@@ -132,7 +133,7 @@ html
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media screen and (min-device-width: 48em) {
     .header li {
       float: left;
     }
@@ -242,7 +243,6 @@ html
 #h21
 {
     font-size: 10rem;
-    width: max-content;
     color: darkgreen;
     text-align: center;
 }
@@ -294,6 +294,7 @@ html
   
     justify-content: center;
 }
+
 /*.container9
 {
     background-image: url("7.jpg");

@@ -1,36 +1,162 @@
-
+@media only screen  and (min-device-width:768px) 
+{
+    .container10
+    {
+        display: flex;
+    }
+}
 @media only screen  and (max-device-width:480px) 
 {
-    body
+    html
     {
-        font-size: 20%;
-        width:480px;
-        
+        font-size: 17%;
+    }
+    .header ul li a img
+    {
+        width: 13rem;
+        height: 13rem;
     }
     .con8
     {
-        display:table;
+        display:flex;
     }
+    #h41
+{
+    text-align: center;
+    color: darkgreen;
+}
     .container8
     {
-        display: table;
+        display:flex;
+        justify-content: center;
     }
+    
     .container3
     {
         display: table;
+        justify-content: center;
     }
-    
+    .container3 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .con4
+    {
+        display: flex;
+    }
     .con5
     {
         display:table;
+        
+    }
+    .con5 img 
+    {
+        width: 40rem;
     }
     .con7
     {
         display:table;
-        margin-left: 0;
+        margin-left: 40%;
+    }
+    .con7 img 
+    {
+        width: 40rem;
     }
     .lmenu
     {
         display: initial;
     }
+    .container1
+    {
+        padding-top: 20rem;
+    }
+    .container1 img 
+    {
+        width: 38rem;
+        height: 38rem;
+    }
+    .container6 img
+    {
+        width: 15rem;
+        height: 15rem;
+    }
+    .container9 img
+    {
+        width: 40rem;
+        height: 40rem;
+    }
+    .tt1 h1
+    {
+        font-size: 7rem;
+    }
+    .tt1 h2
+    {
+        font-size: 4rem;
+    }
+    .mm1
+    {
+        margin: 3vh;
+    }
+    .mm1 img
+    {
+        width: 15rem;
+        height: 15rem;
+    }
+    .comma img
+    {
+        width: 12rem;
+        height: 12rem;
+    }
+    .comma2
+    {
+        height: 35vh;
+    }
+    .comma2 img
+    {
+        width: 12rem;
+        height: 12rem;
+    }
+    .b1
+    {
+        display: table;
+        height: 20%;
+    }
+    .vertical
+    {
+        display: none;
+    }
+    #t11
+{
+    font-size: 2.5rem ;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    padding: 4rem;
+
+}
+    .split
+{
+    height: 30vh;
+    background: linear-gradient(
+        to bottom,
+        white 0%,
+        white 50%,
+        darkgreen 50%,
+        darkgreen 100%
+    );
+    display: flex;
+    justify-content: center;
+}
+input[type=submit] {
+    background-color: orangered;
+    color: white;
+    font-size: 3vh;
+    margin: 1.5vh;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
 }
