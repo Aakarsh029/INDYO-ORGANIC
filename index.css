@@ -194,7 +194,10 @@ html
     justify-content: space-between;
  
 }
-
+.container2
+{
+  padding-top: 5rem;
+}
 #h11
 {
     text-shadow: 20px ;
@@ -216,6 +219,10 @@ html
     color: white;
     text-align: center;
 
+}
+.h14
+{
+  padding: 2rem;
 }
 #h14
 {
