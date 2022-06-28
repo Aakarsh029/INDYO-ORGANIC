@@ -194,12 +194,7 @@ html
     justify-content: space-between;
  
 }
-.container2
-{
-    margin-top: 5rem;
-    margin-left: 15rem;
-    justify-content: center;
-}
+
 #h11
 {
     text-shadow: 20px ;
@@ -436,6 +431,7 @@ html
     display: flex;
     margin: 5rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 

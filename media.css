@@ -4,6 +4,20 @@
     {
         display: flex;
     }
+    .container2
+{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    justify-content: center;
+}
+.break {
+    flex-basis: 100%;
+    width: 0;
+  }
+  .header .logo img
+  {
+    width: 20rem;
+  }
 }
 @media only screen  and (max-device-width:480px) 
 {
@@ -11,15 +25,14 @@
     {
         font-size: 17%;
     }
-    .header ul li a img
-    {
-        width: 13rem;
-        height: 13rem;
-    }
     .con8
     {
         display:flex;
     }
+    .header .logo img
+  {
+    width: 50rem;
+  }
     #h41
 {
     text-align: center;
@@ -63,6 +76,7 @@
     {
         width: 40rem;
     }
+    
     .lmenu
     {
         display: initial;
@@ -70,12 +84,31 @@
     .container1
     {
         padding-top: 20rem;
+        display: grid;
+        padding-bottom: 10rem;
     }
     .container1 img 
     {
-        width: 38rem;
-        height: 38rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
     }
+    .container2
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    #h13
+{
+    font-size: 2.5rem;
+    width: 90rem;
+    color: white;
+    text-align: center;
+
+}
     .container6 img
     {
         width: 15rem;
@@ -159,4 +192,39 @@ input[type=submit] {
     cursor: pointer;
     text-align: center;
   }
+  .break1 {
+    flex-basis: 100%;
+    width: 0;
+  }
+  .overlay
+{
+    position: absolute;
+    opacity: 0;
+ 
+    background: orangered;
+    width: 33rem;
+    height: 0;
+    
+    cursor: pointer;
+    border-top-left-radius:6.2rem ;
+}
+
+@keyframes a4 
+{
+    0%
+    {
+        transform: translateY(73px);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 0.5;
+    }
+    100%
+    {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+}
 }
