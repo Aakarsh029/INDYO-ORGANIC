@@ -183,7 +183,6 @@ html
 
 .container1
 {
-    background-color: darkgreen;
     padding-top: 9rem;
     display: flex;
     justify-content: center;
@@ -200,23 +199,20 @@ html
 }
 #h11
 {
+  color: darkgreen;
     text-shadow: 20px ;
     font-size: 10rem;
     text-align: center;
-    color: white;
 }
 #h12
 {
     text-align: center;
     font-size: 4.5rem;
-   
-    color: white;
 }
 #h13
 {
     font-size: 2.5rem;
     width: 80rem;
-    color: white;
     text-align: center;
 
 }
@@ -245,8 +241,8 @@ html
 #h21
 {
     font-size: 10rem;
-    color: darkgreen;
     text-align: center;
+    font-weight: bolder;
 }
 #h22
 {
@@ -254,29 +250,52 @@ html
     color: gray;
     text-align: center;
 }
+.bg
+{
+  background-image: url("./bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#hc1
+{
+  font-size: 2.5rem;
+      background-color: yellow;
+    box-sizing: border-box;
+    float: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    color: white;
+    border-radius: 4rem;
+}
 #h23
 {
-    font-size: 4.3rem;
-    background-color: orangered;
+    font-size: 2.3rem;
+    background-color: yellow;
     box-sizing: border-box;
     text-align: center;
+    float: left;
+    padding-left: 3rem;
+    padding-right: 3rem;
     color: white;
     border-radius: 4rem;
 }
 #img5
 {
-    height: 35rem;
+    height: 50rem;
 }
 .container5
 {
-    padding-left: 6rem;
-    padding-top: 4rem;
-    padding-right: 3rem;
+    display: table;
 }
 
 .container6
 {
     display: flex;
+}
+#img6
+{
+  height: 5rem;
 }
 .container7
 {
@@ -309,37 +328,35 @@ html
     
 }*/
 .con1{
-    padding-top: 15rem;
+    padding-top: 10rem;
 }
 .con2{
     display: flex;
-  
+    box-sizing: border-box;
     justify-content: center;
     background-image: url("8.jpg");
     background-repeat: no-repeat;
-    height: 50rem;
+    height: 60rem;
     background-size: cover;
 }
 
 .con3
 {
-    
-    background-image: url("9.jpg");
-    background-repeat: no-repeat;
-    color: white;
+    color: darkgreen;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 3rem;
     margin: 6rem;
-    height: 28rem;
-    padding: 5rem;
- 
-    
-    background-size: cover;
+    border: 3px solid green;
+    height: 20rem;
+    width: 20rem;
+    padding: 2rem;
 }
 .counter
 {
     font-size: 6rem;
     text-align: center;
     font-weight: bolder;
-    
 }
 #h52
 {
@@ -447,8 +464,8 @@ html
    
     background-image: url("10.jpg");
     margin: 3rem;
-    width: 33rem;
-    height: 22rem;
+    width: 36rem;
+    height: 28rem;
    background-size: cover;
    
 }
@@ -457,12 +474,16 @@ html
     position: absolute;
     opacity: 0;
  
-    background: orangered;
-    width: 33rem;
+    background: green;
+    width: 36rem;
     height: 0;
     
     cursor: pointer;
-    border-top-left-radius:6.2rem ;
+    border-top-left-radius:9.2rem ;
+    border-bottom-right-radius: 4.15rem;
+    border-top-right-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
+
 }
 .content
 {
@@ -474,7 +495,7 @@ html
 .con9:hover .overlay
 {
     opacity: 1;
-    height: 22rem;
+    height: 28rem;
     animation-name: a4;
     animation-duration: 0.45s;
     animation-iteration-count: 1;
@@ -614,5 +635,27 @@ html
     #s5:checked ~ #slide3 {
   box-shadow: 0 1px 4px rgba(0,0,0, 0.4);
   transform: translate3d(-40%, 0, -250px);
+}
+.bb
+{
+  background-image: url("./bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.em img
+{
+  width: 8rem;
+  height: 8rem;
+}
+.em
+{
+  color: white;
+  display: flex;
+  margin: 3rem;
+}
+.info
+{
+  background-color: rgba(0,0,0, 0.15);
+  display: grid;
 }
 

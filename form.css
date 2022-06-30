@@ -1,7 +1,11 @@
 input
 {
-    background-color: darkgreen;
+    background-color: rgba(255,255,255, 0);
     color: white;
+    border-bottom: 5px solid white;
+    border-top: 0;
+    border-left: 0;
+    border-right: none;
 }
 ::placeholder
 {
@@ -11,14 +15,18 @@ input
 }
 textarea
 {
-    background-color: darkgreen;
-    color: white;
+  background-color: rgba(255,255,255, 0);
+  color: white;
+  border-bottom: 5px solid white;
+  border-top: 0;
+  border-left: 0;
+  border-right: none;
     margin: 3vh;
 }
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
-    margin-right: 1vh;
+    margin-right: 3vh;
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16pbax; /* Bottom margin */
     
@@ -26,7 +34,7 @@ input[type=text], select, textarea {
   input[type=email], select, textarea {
     width: 100%; 
     padding: 12px; 
-    margin-left: 1vh;
+    margin-left: 3vh;
 
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16pbax; /* Bottom margin */
@@ -53,9 +61,8 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .containerr {
     border-radius: 5px;
-    background-color: darkgreen;
     padding: 20px;
-   
+   width: -webkit-fill-available;
   }
   .submit
   {
