@@ -17,7 +17,8 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="testimonials.css">
     <link rel="stylesheet" href="media.css">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
 
 </head>
 
@@ -175,20 +176,20 @@
     <div class="con1">
         <div class="con2">
 
-            <div class="con3">
-                <h1 id="h51">123+</h1>
-                <h1 id="h52">Farmers</h1>
+            <div class="con3" >
+                <span class="counter" >123</span>
+                <h1 id="h52" >Farmers</h1>
             </div>
             <div class="con3">
-                <h1 id="h51">40+</h1>
+                <span class="counter" >40</span>
                 <h1 id="h52">Products</h1>
             </div>
             <div class="con3">
-                <h1 id="h51">10+</h1>
+                <span class="counter" >10</span>
                 <h1 id="h52">Accreditions</h1>
             </div>
             <div class="con3">
-                <h1 id="h51">1K+</h1>
+                <span class="counter" >1000</span>
                 <h1 id="h52">Happy users</h1>
             </div>
         </div>
@@ -198,24 +199,24 @@
         delivery even for small quantities along with full sales support to our sellers.</h1>
     <div class="con4">
         <div class="con5">
-            <div class="con6">
+            <div class="con6" data-aos="fade-in">
                 <img src="./a1.jpg">
             </div>
-            <div class="con6">
+            <div class="con6" data-aos="fade-in">
                 <img src="./a2.jpg">
             </div>
-            <div class="con6">
+            <div class="con6" data-aos="fade-in">
                 <img src="./a3.jpg">
             </div>
         </div>
         <div class="con7">
-            <div class="con6">
+            <div class="con6" data-aos="fade-in">
                 <img src="./a6.jpg">
             </div>
-            <div class="con6">
+            <div class="con6" data-aos="fade-in">
                 <img src="./a5.jpg">
             </div>
-            <div class="con6">
+            <div class="con6" data-aos="fade-in">
                 <img src="./a4.jpg">
             </div>
         </div>
@@ -511,7 +512,14 @@
         <h1 id="e">@copyright@indigoorganic.com</h1>
     </div>
 
-
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 300,
+        duration: 600
+    });
+  </script>
+  
 </body>
 
 </html>

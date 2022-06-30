@@ -334,11 +334,12 @@ html
     
     background-size: cover;
 }
-#h51
+.counter
 {
     font-size: 6rem;
     text-align: center;
     font-weight: bolder;
+    
 }
 #h52
 {
@@ -357,11 +358,12 @@ html
 }
 .con5
 {
-    display: flex;
-    
-    
+    display: flex; 
+    justify-content: center;
+
 }
-.con6
+
+/*.con6
 {
     background-color: none;
     margin: 1rem;
@@ -370,7 +372,7 @@ html
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-timing-function: ease-out;
-}
+}*/
 .con61
 {
     background-color: orangered;
@@ -429,8 +431,7 @@ html
 .con7
 {
     display: flex;
-    
-    margin-left: 40rem;
+  justify-content: center;
     
 }
 .con8
