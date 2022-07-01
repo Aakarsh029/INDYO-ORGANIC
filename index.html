@@ -19,11 +19,6 @@
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-
 </head>
 
 <body>
@@ -202,19 +197,19 @@
         <div class="con2">
 
             <div class="con3">
-                <div class="counter">123</div>
+                <div class="counter" data-number="120">0+</div>
                 <h1 id="h52">Farmers</h1>
             </div>
             <div class="con3">
-                <div class="counter">40</div>
+                <div class="counter" data-number="40">0+</div>
                 <h1 id="h52">Products</h1>
             </div>
             <div class="con3">
-                <div class="counter">10</div>
+                <div class="counter" data-number="10">0+</div>
                 <h1 id="h52">Accreditions</h1>
             </div>
             <div class="con3">
-                <div class="counter">1000</div>
+                <div class="counter" data-number="1000">0+</div>
                 <h1 id="h52">Happy users</h1>
             </div>
         </div>
@@ -558,14 +553,100 @@
             duration: 600
         });
     </script>
-
+    <!--
     <script>
-        $(document).ready(function () {
-            $('.counter').counterUp({
-                delay: 10,
-                time: 1200
-            });
-        });
+        var project1= setInterval(project1Done,10)
+        let count1=1;
+
+        function project1Done(){
+            count1++;
+            document.querySelector("#n1").innerHTML=count1;
+            if(count1==123)
+            {
+                clearInterval(project1)
+            }
+        }
+
+        var project2= setInterval(project2Done,10)
+        let count2=1;
+
+        function project2Done(){
+            count2++;
+            document.querySelector("#n2").innerHTML=count2;
+            if(count2==40)
+            {
+                clearInterval(project2)
+            }
+        }
+
+        var project3= setInterval(project3Done,10)
+        let count3=1;
+
+        function project3Done(){
+            count3++;
+            document.querySelector("#n3").innerHTML=count3;
+            if(count3==10)
+            {
+                clearInterval(project3)
+            }
+        }
+
+        var project4= setInterval(project4Done,10)
+        let count4=1;
+
+        function project4Done(){
+            count4++;
+            document.querySelector("#n4").innerHTML=count4;
+            if(count4==1000)
+            {
+                clearInterval(project4)
+            }
+        }
+        </script>-->
+    <script>
+        const workSection = document.querySelector(".con1");
+        const workObserver = new IntersectionObserver(
+            (entries, observer) => {
+                const [entry] = entries;
+                // console.log(entry);
+
+                // if (entry.isIntersecting == false)
+                if (!entry.isIntersecting) return;
+
+                // animate number counter
+
+                const counterNum = document.querySelectorAll(".counter");
+
+                const speed = 10;
+
+                counterNum.forEach((curElem) => {
+                    const updateNumber = () => {
+                        const targetNumber = parseInt(curElem.dataset.number);
+                        // console.log(targetNumber);
+                        const initialNum = parseInt(curElem.innerText);
+                        // console.log(initialNum);
+
+                        const incrementNumber = Math.trunc(targetNumber / speed);
+                        // console.log(incrementNumber);
+
+                        if (initialNum < targetNumber) {
+                            curElem.innerText = `${initialNum + incrementNumber}+`;
+                            setTimeout(updateNumber, 10);
+                        }
+                    };
+
+                    updateNumber();
+                });
+
+                observer.unobserve(workSection);
+            },
+            {
+                root: null,
+                threshold: 0,
+            }
+        );
+
+        workObserver.observe(workSection);        
     </script>
 </body>
 
