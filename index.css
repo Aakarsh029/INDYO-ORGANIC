@@ -14,7 +14,61 @@ html
     font-size: 60.5%;
 }
 
-  
+  .ima
+  {
+    position: relative;
+  }
+  #fruits
+  {
+    position: relative;
+    width: 30rem;
+    left: 16%;
+    overflow: hidden;
+  }
+  #mango
+  {
+    position: relative;
+    width: 20rem;
+    overflow: hidden;
+    top: 12%;
+  }
+  #mango :hover
+  {
+    animation: shake 1s ease-in-out .1s infinite alternate ;
+  }
+  #fruits:hover
+  {
+    animation: shake 1s ease-in-out .1s infinite alternate ;
+    
+  }
+  @keyframes shake {
+    from
+    {
+      transform: rotate(15deg);
+    }
+    to
+    {
+      transform: rotate(-15deg);
+      transform-origin:center ;
+    }
+  }
+  #go
+  {
+    position: relative;
+    width: 20rem;
+  }
+  #go1
+  {
+    position: relative;
+    width: 30rem;
+  }
+  #go2
+  {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 45rem;
+  }
   /* header */
   
   .header {
