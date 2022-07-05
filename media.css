@@ -59,7 +59,38 @@
     .con8 {
         display: flex;
     }
-
+    #fruits
+    {
+      position: relative;
+      width: 40rem;
+      left: 15%;
+      overflow: hidden;
+    }
+    #mango
+    {
+      position: relative;
+      width: 20rem;
+      overflow: hidden;
+      top: 12%;
+    }
+    #go
+  {
+    position: relative;
+    width: 20rem;
+  }
+  #go1
+  {
+    position: relative;
+    width: 30rem;
+    left: 20%;
+  }
+  #go2
+  {
+    position: absolute;
+    right: 30%;
+    bottom: 10%;
+    width: 50rem;
+  }
 
 
     .header .logo img {
@@ -538,5 +569,41 @@
         display: flex;
         justify-content: space-around;
     }
+    #fruits
+    {
+      position: relative;
+      width: 40rem;
+      bottom: 12%;
+      left: 30%;
+      overflow: hidden;
+    }
+    #mango
+    {
+      position: relative;
+      width: 20rem;
+      right: 45%;
+      top: 28%;
+    }
+    #go
+  {
+    position: relative;
+    width: 20rem;
+    top: 10%;
+    right: 36%;
+  }
+  #go1
+  {
+    position: relative;
+    width: 30rem;
+    left: 20%;
+  }
+  #go2
+  {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    width: 80rem;
+    
+  }
 
 }
