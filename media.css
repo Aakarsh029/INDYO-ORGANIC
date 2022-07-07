@@ -6,7 +6,12 @@
     {
         left: 15%;
     }
-
+    html
+    { 
+      margin-left: 2rem;
+      margin-right: 2rem;
+      background-color: #EEF4E9;
+    }
     .container2 {
         margin-top: 5rem;
         justify-content: center;
@@ -619,4 +624,13 @@
         height: 4rem;
         width: 4rem;
     }
+    #slider {
+        position: relative;
+        width: 40%;
+        height: 37vw;
+        margin: 150px auto;
+        font-family: 'Helvetica Neue', sans-serif;
+        perspective: 1400px;
+        transform-style: preserve-3d;
+      }
 }
