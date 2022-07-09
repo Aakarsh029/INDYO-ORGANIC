@@ -10,7 +10,7 @@
 
 html {
   overflow-x: hidden;
-  font-size: 53.5%;
+  font-size: 50.5%;
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -36,6 +36,7 @@ html
   width: 20rem;
   overflow: hidden;
   top: 10%;
+  left: 15%;
 }
 
 #mango:hover {
@@ -375,10 +376,7 @@ html
 .container7 {
   padding-top: 1.5rem;
 }
-.container9 img
-{
-  width: 40rem;
-}
+
 #h41 {
   padding-top: 7rem;
   font-size: 9.5rem;
@@ -758,3 +756,12 @@ input[type=radio]:checked {
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     transform: translate3d(-170%, 0, -500px);
   }
+#hb1
+{
+  font-size: 5rem;
+  font-weight: bold;
+}
+#hb2
+{
+  font-size: 2.7rem;
+}
