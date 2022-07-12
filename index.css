@@ -403,6 +403,7 @@ html
     padding: 10rem;
     
 }*/
+
 .con1 {
   padding-top: 10rem;
   background-color: #EEF4E9;
@@ -764,4 +765,15 @@ input[type=radio]:checked {
 #hb2
 {
   font-size: 2.7rem;
+}
+.container9
+{
+    background-color: white;
+    margin: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.35)
+}
+.container9 img 
+{
+    width: 35rem;
+    height: 20rem;
 }

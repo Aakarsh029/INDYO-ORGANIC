@@ -6,7 +6,17 @@
     #go1 {
         left: 15%;
     }
-
+    .container9
+    {
+        background-color: white;
+        margin: 10px;
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.35)
+    }
+    .container9 img 
+    {
+        width: 35rem;
+        height: 20rem;
+    }
     html {
         margin-left: 2rem;
         margin-right: 2rem;
