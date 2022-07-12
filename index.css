@@ -12,12 +12,11 @@ html {
   overflow-x: hidden;
   font-size: 50.5%;
   font-family: 'Montserrat', sans-serif;
-
 }
-html
+/*html
 { 
   background-color: #EEF4E9;
-}
+}*/
 
 .ima {
   position: relative;
@@ -82,7 +81,6 @@ html
 /* header */
 
 .header {
-  background-color: #EEF4E9;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   width: 100%;
@@ -94,7 +92,6 @@ html
   padding: 0;
   list-style: none;
   overflow: hidden;
-  background-color: #EEF4E9;
 }
 
 .header li a {
@@ -240,7 +237,6 @@ html
 #navbar1 {
   background-image: url("2.jpg");
   width: fit-content;
-  background-color: #EEF4E9;
 
   background-size: cover;
   font-size: 3rem;
@@ -248,10 +244,8 @@ html
   font-weight: bolder;
 
 }
-
-
 .container1 {
-  padding-top: 9rem;
+  padding-top: 13rem;
   display: flex;
   justify-content: center;
   padding-bottom: 5rem;
@@ -306,8 +300,6 @@ html
 .container3 {
   display: flex;
   padding-top: 5rem;
-  background-color: #EEF4E9;
-
 }
 
 .container4 {
@@ -319,7 +311,11 @@ html
   text-align: center;
   font-weight: bolder;
 }
-
+#h221 {
+  font-size: 8rem;
+  text-align: left;
+  font-weight: bolder;
+}
 #h22 {
   font-size: 7.5rem;
   color: gray;
@@ -406,7 +402,6 @@ html
 
 .con1 {
   padding-top: 10rem;
-  background-color: #EEF4E9;
 
 }
 
@@ -418,27 +413,24 @@ html
   background-repeat: no-repeat;
   height: 60rem;
   background-size: cover;
-  background-color: #EEF4E9;
-
 }
 
 .con3 {
   color: darkgreen;
   box-sizing: border-box;
-  background-color: #EEF4E9;
   box-shadow: 3rem;
   margin: 6rem;
   border: 3px solid green;
   height: 20rem;
   width: 20rem;
   padding: 2rem;
+  background-color: #EEF4E9;
 }
 
 .counter {
   font-size: 6rem;
   text-align: center;
   font-weight: bolder;
-  background-color: #EEF4E9;
 
 }
 
@@ -455,16 +447,12 @@ html
 
 .con4 {
   padding-top: 3rem;
-  background-color: #EEF4E9;
 
 }
 
 .con5 {
   display: flex;
   justify-content: center;
-  background-color: #EEF4E9;
-
-
 }
 
 /*.con6
@@ -491,7 +479,6 @@ html
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   animation-timing-function: ease-out;
-  background-color: #EEF4E9;
 
 }
 
@@ -542,20 +529,15 @@ html
   margin: 5rem;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #EEF4E9;
-
 }
 
 
 .con9 {
 
-  background-image: url("10.jpg");
   margin: 3rem;
-  width: 36rem;
-  height: 28rem;
+  width: 44rem;
+  height: 34rem;
   background-size: cover;
-  background-color: #EEF4E9;
-
 }
 
 .overlay {
@@ -563,7 +545,7 @@ html
   opacity: 0;
 
   background: green;
-  width: 36rem;
+  width: 44rem;
   height: 0;
 
   cursor: pointer;
@@ -583,7 +565,7 @@ html
 
 .con9:hover .overlay {
   opacity: 1;
-  height: 28rem;
+  height: 34rem;
   animation-name: a4;
   animation-duration: 0.45s;
   animation-iteration-count: 1;
@@ -666,12 +648,9 @@ input[type=radio]:checked {
   color: white;
   display: flex;
   margin: 3rem;
+  justify-content: space-evenly;
 }
-.wwo
-{
-  background-color: #EEF4E9;
 
-}
 .info {
   background-color: rgba(0, 0, 0, 0.15);
   display: grid;
@@ -770,10 +749,14 @@ input[type=radio]:checked {
 {
     background-color: white;
     margin: 10px;
-    box-shadow: 10px 10px rgba(0, 0, 0, 0.35)
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.35)
 }
 .container9 img 
 {
     width: 35rem;
     height: 20rem;
+}
+.mm1
+{
+  background-color: #EEF4E9;
 }
