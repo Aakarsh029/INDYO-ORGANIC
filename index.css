@@ -13,10 +13,6 @@ html {
   font-size: 50.5%;
   font-family: 'Montserrat', sans-serif;
 }
-/*html
-{ 
-  background-color: #EEF4E9;
-}*/
 
 .ima {
   position: relative;
@@ -546,7 +542,7 @@ html {
   position: absolute;
   color: white;
   width: 44rem;
-  height: auto;
+  height: 6rem;
   text-align: center;
   font-weight: bolder;
   background-color: darkgreen;

@@ -392,9 +392,11 @@
 
     .con7 {
         display: table;
-        margin-left: 40%;
+        margin-top: 3rem;
+        margin-left: 30%;
+        
     }
-
+   
     .con7 img {
         width: 40rem;
     }
@@ -528,30 +530,51 @@
 
         background-image: url("10.jpg");
         margin: 3rem;
-        width: 56rem;
-        height: 48rem;
+        width: 96rem;
+        height: 88rem;
         background-size: cover;
 
     }
-
+    #h91{
+        position: absolute;
+        color: white;
+        width: 96rem;
+        height: 12rem;
+        text-align: center;
+        font-weight: bolder;
+        background-color: darkgreen;
+        margin-top: 76rem;
+        font-size: 5rem;
+      }
+      #h61
+      {
+        font-size: 7rem;
+        text-align: center;
+        margin-left: 18rem;
+        margin-right: 18rem;
+      }
+      #h661
+      {
+        font-size: 5rem;
+      }
     .overlay {
         position: absolute;
         opacity: 0;
 
         background: green;
-        width: 56rem;
+        width: 96rem;
         height: 0;
 
         cursor: pointer;
-        border-top-left-radius: 9.2rem;
-        border-bottom-right-radius: 4.15rem;
+        border-top-left-radius: 33.2rem;
+        border-bottom-right-radius: 0rem;
         border-top-right-radius: 1.6rem;
         border-bottom-left-radius: 1.6rem;
     }
 
     .con9:hover .overlay {
         opacity: 1;
-        height: 48rem;
+        height: 88rem;
         animation-name: a4;
         animation-duration: 0.45s;
         animation-iteration-count: 1;
@@ -577,7 +600,47 @@
         }
 
     }
-
+    ::placeholder
+    {
+        color: white;
+        font-weight: bolder;
+        font-size: 4rem;
+    }
+    textarea
+    {
+      background-color: rgba(255,255,255, 0);
+      color: white;
+      border-bottom: 5px solid white;
+      border-top: 0;
+      border-left: 0;
+      font-size: 4rem;
+      border-right: none;
+      margin: 0vh;
+    }
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        margin-top: 6px; /* Add a top margin */
+        font-size: 4rem;
+        margin-bottom: 16pbax; /* Bottom margin */
+        
+      }
+      input[type=email], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        font-size: 4rem;
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16pbax; /* Bottom margin */
+      
+      }
+      #hb1
+      {
+        font-size: 7rem;
+      }
+      #hb2
+      {
+        font-size: 5rem;
+      }
     .flexx {
         display: contents;
     }
@@ -633,7 +696,7 @@
     #slider {
         position: relative;
         width: 50%;
-        height: 37vw;
+        height: 63vw;
         margin: 150px auto;
         font-family: 'Helvetica Neue', sans-serif;
         perspective: 1400px;
