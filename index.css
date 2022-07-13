@@ -453,18 +453,21 @@ html {
 .con5 {
   display: flex;
   justify-content: center;
+  
+    padding: 4rem;
 }
 
-/*.con6
+.con6
 {
-    background-color: none;
-    margin: 1rem;
-    animation-name: a1;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-out;
-}*/
+  position: relative;
+  background-color: #FFF3D7;
+    text-align: center;
+    width: 40rem;
+    height: 15rem;
+    font-size: 2rem;
+    padding-top: 7rem;
+    color: #EC691F;    
+}
 .con61 {
   background-color: orangered;
   margin: 3rem;
@@ -539,7 +542,16 @@ html {
   height: 34rem;
   background-size: cover;
 }
-
+#h91{
+  position: absolute;
+  color: white;
+  width: 44rem;
+  height: auto;
+  text-align: center;
+  font-weight: bolder;
+  background-color: darkgreen;
+  margin-top: 28rem;
+}
 .overlay {
   position: absolute;
   opacity: 0;
@@ -550,9 +562,9 @@ html {
 
   cursor: pointer;
   border-top-left-radius: 9.2rem;
-  border-bottom-right-radius: 4.15rem;
-  border-top-right-radius: 1.6rem;
-  border-bottom-left-radius: 1.6rem;
+  border-bottom-right-radius: 0rem;
+  border-top-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
 
 }
 
@@ -759,4 +771,15 @@ input[type=radio]:checked {
 .mm1
 {
   background-color: #EEF4E9;
+}
+#cp
+{
+  position: absolute;
+  width: 90rem;
+  left: -90%;
+  top: -140%;
+}
+.footer
+{
+  background-color: #7DAA7B;
 }
