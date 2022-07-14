@@ -1,4 +1,4 @@
-@media only screen and (min-device-width:915px) {
+@media only screen and (min-device-width:1280px) {
     .container10 {
         display: flex;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media only screen and (min-device-width:480px) and (max-device-width:822px) {
+@media only screen and (min-device-width:600px) and (max-device-width:822px) {
     html {
         font-size: 37%;
         margin: 0;
@@ -373,7 +373,7 @@
     }
 }
 
-@media only screen and (max-device-width:480px) {
+@media only screen and (max-device-width:600px) {
     html {
         font-size: 17%;
     }
@@ -819,7 +819,7 @@
       
 }
 
-@media only screen and (min-device-width:822px) and (max-device-width:915px) {
+@media only screen and (min-device-width:822px) and (max-device-width:1280px) {
     html {
         font-size: 37%;
     }
