@@ -407,7 +407,7 @@ html {
   display: flex;
   box-sizing: border-box;
   justify-content: center;
-  background-image: url("8.jpg");
+  background-image: url("./img/8.jpg");
   background-repeat: no-repeat;
   height: 60rem;
   background-size: cover;
@@ -649,7 +649,7 @@ input[type=radio]:checked {
 
 
 .bb {
-  background-image: url("./bg2.jpg");
+  background-image: url("./img/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
