@@ -658,33 +658,6 @@
         border-right: none;
         margin: 0vh;
     }
-
-    input[type=text],
-    select,
-    textarea {
-        width: 100%;
-        padding: 12px;
-        margin-top: 6px;
-        /* Add a top margin */
-        font-size: 4rem;
-        margin-bottom: 16pbax;
-        /* Bottom margin */
-
-    }
-
-    input[type=email],
-    select,
-    textarea {
-        width: 100%;
-        padding: 12px;
-        font-size: 4rem;
-        margin-top: 6px;
-        /* Add a top margin */
-        margin-bottom: 16pbax;
-        /* Bottom margin */
-
-    }
-
     #hb1 {
         font-size: 7rem;
     }
@@ -815,6 +788,35 @@
         cursor: pointer;
         text-align: center;
     }
+    .te
+    {
+        display: table;
+        margin: 0;
+    }
+    input[type=text], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        margin-right: 0vh;
+        margin-left: 6rem;
+        margin-top: 6px; /* Add a top margin */
+        font-size: 2rem;
+        margin-bottom: 16pbax; /* Bottom margin */
+        
+      }
+      input[type=email], select, textarea {
+        width: 100%; 
+        padding: 12px; 
+        margin-left: 6rem;
+        font-size: 2rem;
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16pbax; /* Bottom margin */
+      
+      }
+      .sub
+      {
+        margin: 0;
+      }
+      
 }
 
 @media only screen and (min-device-width:822px) and (max-device-width:915px) {

@@ -724,7 +724,7 @@ input[type=radio]:checked {
 #s4:checked~#slide5,
 #s5:checked~#slide1 {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
-  transform: translate3d(80%, 0, -200px);
+  transform: translate3d(90%, 0, -330px);
 }
 
 #s1:checked~#slide3,
@@ -733,7 +733,7 @@ input[type=radio]:checked {
 #s4:checked~#slide1,
 #s5:checked~#slide2 {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  transform: translate3d(170%, 0, -500px);
+  transform: translate3d(210%, 0, -830px);
 }
 
 #s1:checked~#slide5,
@@ -742,7 +742,7 @@ input[type=radio]:checked {
 #s4:checked~#slide3,
 #s5:checked~#slide4 {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2);
-  transform: translate3d(-80%, 0, -200px);
+  transform: translate3d(-90%, 0, -330px);
 }
 
 #s1:checked~#slide4,
@@ -751,16 +751,18 @@ input[type=radio]:checked {
 #s4:checked~#slide2,
 #s5:checked~#slide3 {
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-  transform: translate3d(-170%, 0, -500px);
+  transform: translate3d(-210%, 0, -830px);
 }
 
 #hb1 {
   font-size: 5rem;
   font-weight: bold;
+  margin: 3rem;
 }
 
 #hb2 {
   font-size: 2.7rem;
+  margin: 3rem;
 }
 
 .container9 {
