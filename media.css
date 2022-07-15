@@ -64,6 +64,11 @@
         font-size: 37%;
         margin: 0;
     }
+    .container8
+    {
+        background-position: right top, left top, left bottom,right bottom;
+        background-size: 50rem,50rem,35rem,35rem;
+    }
     .break5 {
         flex-basis: 100%;
         width: 0;
@@ -361,7 +366,11 @@
     html {
         font-size: 17%;
     }
-
+    .container8
+    {
+        background-position: right top, left top, left bottom,right bottom;
+        background-size: 50rem,50rem,45rem,45rem;
+    }
     #carouselExampleIndicators {
         margin: 5rem;
         margin-top: 0rem;
@@ -802,7 +811,11 @@
     html {
         font-size: 37%;
     }
-
+    .container8
+    {
+        background-position: right top, left top, left bottom,right bottom;
+        background-size: 50rem,50rem,35rem,35rem;
+    }
     .header li a {
         padding-left: 30px;
     }
