@@ -129,15 +129,10 @@
         color: darkgreen;
     }
 
-    .container8 {
+    .container10 {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    .container10 {
-        display: flex;
-
     }
 
     .container3 {
@@ -385,8 +380,7 @@
         color: darkgreen;
     }
 
-    .container8 {
-        display: flex;
+    .container10 {
         justify-content: center;
     }
 
@@ -531,8 +525,7 @@
         flex-basis: 100%;
         width: 0;
     }
-    .container8 {
-        display: flex;
+    .container10 {
         justify-content: center;
         flex-wrap: wrap;
     }
@@ -867,16 +860,10 @@
         text-align: center;
         color: darkgreen;
     }
-
-    .container8 {
+    .container10 {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    }
-
-    .container10 {
-        display: flex;
-
     }
 
     .container3 {

@@ -389,13 +389,19 @@ rr
 }
 
 .container8 {
-  display: flex;
-  padding-top: 8rem;
+  padding-bottom: 14rem;
   margin-left: 5rem;
   margin-right: 5rem;
   justify-content: center;
-}
+  background: url("./img/fp/2.png") right top no-repeat , url("./img/fp/1.png") left top no-repeat,
+  url("./img/fp/3.png")  38rem 36rem no-repeat, url("./img/fp/4.png") 80rem 28rem no-repeat;
+  background-size: 40rem,40rem,27rem,27rem;
 
+}
+.container10
+{
+  display: flex;
+}
 /*.
 {
     background-image: url("7.jpg");
