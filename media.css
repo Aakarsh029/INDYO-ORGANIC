@@ -11,22 +11,14 @@
     #go1 {
         left: 15%;
     }
-
-    .container9 {
-        background-color: white;
-        margin: 10px;
-        box-shadow: 3px 3px rgba(0, 0, 0, 0.35)
-    }
-
     .container9 img {
-        width: 25rem;
+        width: 20rem;
     }
 
     html {
         margin-left: 2rem;
         margin-right: 2rem;
-        background-color: #EEF4E9;
-    }
+        }
 
     .container2 {
         margin-top: 5rem;
@@ -296,7 +288,7 @@
         height: 10rem;
         text-align: center;
         font-weight: bolder;
-        background-color: darkgreen;
+        background-color: #7DAA7B;
         font-size: 4rem;
         margin-top: 38rem;
     }
@@ -305,22 +297,19 @@
         position: absolute;
         opacity: 0;
 
-        background: green;
+        background: #7DAA7B;
         width: 56rem;
         height: 0;
 
         cursor: pointer;
-        border-top-left-radius: 19.1rem;
-        border-bottom-right-radius: 0rem;
-        border-top-right-radius: 1.6rem;
-        border-bottom-left-radius: 1.6rem;
+    
     }
 
     #h61 {
         font-size: 4rem;
 
-        margin-left: 6rem;
-        margin-right: 6rem;
+        margin-left: 9rem;
+        margin-right: 9rem;
     }
 
     #h661 {
@@ -582,35 +571,32 @@
         height: 12rem;
         text-align: center;
         font-weight: bolder;
-        background-color: darkgreen;
+        background-color: #7DAA7B;
         margin-top: 76rem;
         font-size: 5rem;
     }
 
     #h61 {
-        font-size: 7rem;
+        font-size: 5rem;
         text-align: center;
         margin-left: 18rem;
         margin-right: 18rem;
     }
 
     #h661 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .overlay {
         position: absolute;
         opacity: 0;
 
-        background: green;
+        background: #7DAA7B;
         width: 96rem;
         height: 0;
 
         cursor: pointer;
-        border-top-left-radius: 33.2rem;
-        border-bottom-right-radius: 0rem;
-        border-top-right-radius: 1.6rem;
-        border-bottom-left-radius: 1.6rem;
+
     }
 
     .con9:hover .overlay {
@@ -659,11 +645,11 @@
         margin: 0vh;
     }
     #hb1 {
-        font-size: 7rem;
+        font-size: 5rem;
     }
 
     #hb2 {
-        font-size: 5rem;
+        font-size: 3rem;
     }
 
     .flexx {
@@ -721,9 +707,9 @@
     #slider {
         position: relative;
         width: 50%;
-        height: 63vw;
-        margin: 150px auto;
-        font-family: 'Helvetica Neue', sans-serif;
+        height: 53vw;
+        margin: 5px auto;
+        margin-bottom: 50px;
         perspective: 1400px;
         transform-style: preserve-3d;
     }
@@ -954,7 +940,7 @@
 
 
     .container9 img {
-        width: 30rem;
+        width: 20rem;
     }
 
     .tt1 h1 {
@@ -1056,7 +1042,7 @@
         height: 10rem;
         text-align: center;
         font-weight: bolder;
-        background-color: darkgreen;
+        background-color: #7DAA7B;
         font-size: 4rem;
         margin-top: 38rem;
     }
@@ -1065,26 +1051,23 @@
         position: absolute;
         opacity: 0;
 
-        background: green;
+        background: #7DAA7B;
         width: 56rem;
         height: 0;
 
         cursor: pointer;
-        border-top-left-radius: 19.1rem;
-        border-bottom-right-radius: 0rem;
-        border-top-right-radius: 1.6rem;
-        border-bottom-left-radius: 1.6rem;
+    
     }
 
     #h61 {
-        font-size: 4rem;
+        font-size: 3rem;
 
-        margin-left: 6rem;
-        margin-right: 6rem;
+        margin-left: 9rem;
+        margin-right: 9rem;
     }
 
     #h661 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     .con9:hover .overlay {
