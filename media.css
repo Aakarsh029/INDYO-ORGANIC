@@ -11,6 +11,7 @@
     #go1 {
         left: 15%;
     }
+
     .container9 img {
         width: 20rem;
     }
@@ -18,7 +19,7 @@
     html {
         margin-left: 2rem;
         margin-right: 2rem;
-        }
+    }
 
     .container2 {
         margin-top: 5rem;
@@ -64,15 +65,17 @@
         font-size: 37%;
         margin: 0;
     }
-    .container8
-    {
-        background-position: right top, left top, left bottom,right bottom;
-        background-size: 50rem,50rem,35rem,35rem;
+
+    .container8 {
+        background-position: right top, left top, left bottom, right bottom;
+        background-size: 50rem, 50rem, 35rem, 35rem;
     }
+
     .break5 {
         flex-basis: 100%;
         width: 0;
     }
+
     body {
         margin: 0;
     }
@@ -290,7 +293,7 @@
         text-align: center;
         font-weight: bolder;
         background-color: #7DAA7B;
-        font-size: 4rem;
+        font-size: 3rem;
         margin-top: 38rem;
     }
 
@@ -303,11 +306,14 @@
         height: 0;
 
         cursor: pointer;
-    
+        border-top-left-radius: 18.2rem;
+        border-bottom-right-radius: 4rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
     }
 
     #h61 {
-        font-size: 4rem;
+        font-size: 3.5rem;
 
         margin-left: 9rem;
         margin-right: 9rem;
@@ -361,17 +367,22 @@
         width: 9rem;
         margin: 0;
     }
+    #w1
+    {
+        padding: 5rem;
+    }
 }
 
 @media only screen and (max-device-width:600px) {
     html {
         font-size: 17%;
     }
-    .container8
-    {
-        background-position: right top, left top, left bottom,right bottom;
-        background-size: 50rem,50rem,45rem,45rem;
+
+    .container8 {
+        background-position: right top, left top, left bottom, right bottom;
+        background-size: 50rem, 50rem, 45rem, 45rem;
     }
+
     #carouselExampleIndicators {
         margin: 5rem;
         margin-top: 0rem;
@@ -411,6 +422,7 @@
     .con5 img {
         width: 40rem;
     }
+
     .con7 {
         display: table;
         margin-top: 3rem;
@@ -536,18 +548,22 @@
         flex-basis: 100%;
         width: 0;
     }
+
     .container10 {
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .break4 {
         flex-basis: 100%;
         width: 0;
     }
+
     .container10 {
         display: flex;
 
     }
+
     .break {
         flex-basis: 100%;
         width: 0;
@@ -565,7 +581,10 @@
         width: 96rem;
         height: 88rem;
         background-size: cover;
-
+        border-top-left-radius: 13.2rem;
+        border-bottom-right-radius: 4rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
     }
 
     #h91 {
@@ -580,17 +599,6 @@
         font-size: 5rem;
     }
 
-    #h61 {
-        font-size: 5rem;
-        text-align: center;
-        margin-left: 18rem;
-        margin-right: 18rem;
-    }
-
-    #h661 {
-        font-size: 3rem;
-    }
-
     .overlay {
         position: absolute;
         opacity: 0;
@@ -600,7 +608,21 @@
         height: 0;
 
         cursor: pointer;
+        border-top-left-radius: 33.2rem;
+        border-bottom-right-radius: 4rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
+    }
 
+    #h61 {
+        font-size: 5rem;
+        text-align: center;
+        margin-left: 23rem;
+        margin-right: 23rem;
+    }
+
+    #h661 {
+        font-size: 4.5rem;
     }
 
     .con9:hover .overlay {
@@ -648,6 +670,7 @@
         border-right: none;
         margin: 0vh;
     }
+
     #hb1 {
         font-size: 5rem;
     }
@@ -721,10 +744,11 @@
     #img5 {
         height: 45rem;
     }
-#w1
-{
-    padding: 5rem;
-}
+
+    #w1 {
+        padding: 5rem;
+    }
+
     #s1:checked~#slide1,
     #s2:checked~#slide2,
     #s3:checked~#slide3,
@@ -769,13 +793,15 @@
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
         transform: translate3d(-90%, 0, -800px);
     }
+
     #b1 {
         border: 1.5px solid #7DAA7B;
         border-radius: 15rem;
         width: 3rem;
         height: 3rem;
-      
-      }
+
+    }
+
     input[type=submit] {
         background-color: orangered;
         color: white;
@@ -787,46 +813,57 @@
         cursor: pointer;
         text-align: center;
     }
-    .te
-    {
+
+    .te {
         display: table;
         margin: 0;
     }
-    input[type=text], select, textarea {
-        width: 100%; 
-        padding: 12px; 
+
+    input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
         margin-right: 0vh;
         margin-left: 6rem;
-        margin-top: 6px; /* Add a top margin */
+        margin-top: 6px;
+        /* Add a top margin */
         font-size: 2rem;
-        margin-bottom: 16pbax; /* Bottom margin */
-        
-      }
-      input[type=email], select, textarea {
-        width: 100%; 
-        padding: 12px; 
+        margin-bottom: 16pbax;
+        /* Bottom margin */
+
+    }
+
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
         margin-left: 6rem;
         font-size: 2rem;
-        margin-top: 6px; /* Add a top margin */
-        margin-bottom: 16pbax; /* Bottom margin */
-      
-      }
-      .sub
-      {
+        margin-top: 6px;
+        /* Add a top margin */
+        margin-bottom: 16pbax;
+        /* Bottom margin */
+
+    }
+
+    .sub {
         margin: 0;
-      }
-      
+    }
+
 }
 
 @media only screen and (min-device-width:822px) and (max-device-width:1280px) {
     html {
         font-size: 37%;
     }
-    .container8
-    {
-        background-position: right top, left top, left bottom,right bottom;
-        background-size: 50rem,50rem,35rem,35rem;
+
+    .container8 {
+        background-position: right top, left top, left bottom, right bottom;
+        background-size: 50rem, 50rem, 35rem, 35rem;
     }
+
     .header li a {
         padding-left: 30px;
     }
@@ -884,6 +921,7 @@
         text-align: center;
         color: #7DAA7B;
     }
+
     .container10 {
         display: flex;
         justify-content: center;
@@ -1047,6 +1085,16 @@
 
     }
 
+    .con9 {
+
+        background-image: url("10.jpg");
+        margin: 3rem;
+        width: 56rem;
+        height: 48rem;
+        background-size: cover;
+
+    }
+
     #h91 {
         position: absolute;
         color: white;
@@ -1055,7 +1103,7 @@
         text-align: center;
         font-weight: bolder;
         background-color: #7DAA7B;
-        font-size: 4rem;
+        font-size: 3rem;
         margin-top: 38rem;
     }
 
@@ -1068,20 +1116,22 @@
         height: 0;
 
         cursor: pointer;
-    
+        border-top-left-radius: 18.2rem;
+        border-bottom-right-radius: 4rem;
+        border-bottom-left-radius: 2rem;
+        border-top-right-radius: 2rem;
     }
 
     #h61 {
-        font-size: 3rem;
+        font-size: 3.5rem;
 
         margin-left: 9rem;
         margin-right: 9rem;
     }
-
-    #h661 {
-        font-size: 2rem;
-    }
-
+#h661
+{
+    font-size: 2.8rem;
+}
     .con9:hover .overlay {
         opacity: 1;
         height: 48rem;
@@ -1120,10 +1170,12 @@
         justify-content: space-around;
         width: 100%;
     }
+
     .break5 {
         flex-basis: 100%;
         width: 0;
     }
+
     #img6 {
         height: 9rem;
         width: 9rem;
