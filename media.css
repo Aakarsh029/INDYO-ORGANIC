@@ -2,12 +2,22 @@
     .container10 {
         display: flex;
     }
-
+    .mm1
+    {
+        margin: 5vh;
+    }
     #carouselExampleIndicators {
         margin: 5rem;
         margin-top: 0rem;
     }
-
+    .carousel-control-prev
+    {
+        left: 25rem;
+    }
+    .carousel-control-next
+    {
+        right: 25rem;
+    }
     #go1 {
         left: 15%;
     }
