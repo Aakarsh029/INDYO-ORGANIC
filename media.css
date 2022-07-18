@@ -10,11 +10,11 @@
         margin: 5rem;
         margin-top: 0rem;
     }
-    .carousel-control-prev
+    #carouselExampleFade .carousel-control-prev
     {
         left: 25rem;
     }
-    .carousel-control-next
+    #carouselExampleFade .carousel-control-next
     {
         right: 25rem;
     }
