@@ -2,7 +2,7 @@ input
 {
     background-color: rgba(255,255,255, 0);
     color: white;
-    border-bottom: 5px solid white;
+    border-bottom: 3px solid white;
     border-top: 0;
     border-left: 0;
     border-right: none;
@@ -18,7 +18,7 @@ textarea
 {
   background-color: rgba(255,255,255, 0);
   color: white;
-  border-bottom: 5px solid white;
+  border-bottom: 3px solid white;
   border-top: 0;
   border-left: 0;
   font-size: 2rem;

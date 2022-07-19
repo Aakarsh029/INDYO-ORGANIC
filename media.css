@@ -1,23 +1,26 @@
 @media only screen and (min-device-width:1280px) {
     .container10 {
         display: flex;
+        justify-content: center;
     }
-    .mm1
-    {
+
+    .mm1 {
         margin: 5vh;
     }
+
     #carouselExampleIndicators {
         margin: 5rem;
         margin-top: 0rem;
     }
-    #carouselExampleFade .carousel-control-prev
-    {
+
+    #carouselExampleFade .carousel-control-prev {
         left: 25rem;
     }
-    #carouselExampleFade .carousel-control-next
-    {
+
+    #carouselExampleFade .carousel-control-next {
         right: 25rem;
     }
+
     #go1 {
         left: 15%;
     }
@@ -26,10 +29,6 @@
         width: 20rem;
     }
 
-    html {
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
 
     .container2 {
         margin-top: 5rem;
@@ -45,7 +44,7 @@
     }
 
     #h13 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
 
     }
@@ -70,332 +69,30 @@
     }
 }
 
-@media only screen and (min-device-width:600px) and (max-device-width:822px) {
-    html {
-        font-size: 37%;
-        margin: 0;
-    }
-
-    .container8 {
-        background-position: right top, left top, left bottom, right bottom;
-        background-size: 50rem, 50rem, 35rem, 35rem;
-    }
-
-    .break5 {
-        flex-basis: 100%;
-        width: 0;
-    }
-
-    body {
-        margin: 0;
-    }
-
-    #fruits {
-        position: relative;
-        width: 40rem;
-        left: 15%;
-        overflow: hidden;
-    }
-
-    #mango {
-        position: relative;
-        width: 20rem;
-        overflow: hidden;
-        top: -10%;
-        left: -1%;
-    }
-
-    #go {
-        position: relative;
-        width: 20rem;
-        top: 1%;
-        left: 50%;
-    }
-
-    #go1 {
-        position: relative;
-        width: 30rem;
-        left: -30%;
-    }
-
-    #go2 {
-        position: absolute;
-        right: 30%;
-        bottom: 10%;
-        width: 50rem;
-    }
-
-    .header li a {
-        padding-left: 30px;
-    }
-
-    #atext {
-        padding-top: 5rem;
-        font-size: 4rem;
-    }
-
-    .con8 {
-        display: flex;
-    }
-
-    .header .logo img {
-        width: 40rem;
-    }
-
-    #h41 {
-        text-align: center;
-        }
-
-    .container10 {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .container3 {
-        display: flex;
-    }
-
-    .container3 img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .con4 {
-        display: flex;
-    }
-
-    .con5 {
-        display: table;
-
-    }
-
-    .con5 img {
-        width: 40rem;
-    }
-
-    .con7 {
-        display: table;
-        margin-left: 20%;
-    }
-
-    .con7 img {
-        width: 40rem;
-    }
-
-    .lmenu {
-        display: initial;
-    }
-
-    .container1 {
-        padding-top: 20rem;
-        padding-bottom: 10rem;
-    }
-
-    .container2 {
-        display: block;
-        margin-left: auto;
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        text-align: center;
-    }
-
-    #h13 {
-        font-size: 2.5rem;
-        width: 60rem;
-        margin: auto;
-        text-align: center;
-
-    }
-
-
-
-    .container9 img {
-        width: 30rem;
-    }
-
-    .tt1 h1 {
-        font-size: 7rem;
-    }
-
-    .tt1 h2 {
-        font-size: 4rem;
-    }
-
-    .mm1 {
-        margin: 3vh;
-    }
-
-    .mm1 img {
-        width: 15rem;
-        height: 15rem;
-    }
-
-    .comma img {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    .comma2 {
-        height: 35vh;
-    }
-
-    .comma2 img {
-        width: 12rem;
-        height: 12rem;
-    }
-
-    .b1 {
-        display: table;
-        height: 20%;
-    }
-
-    #t11 {
-        font-size: 2.5rem;
-        font-weight: bolder;
-        text-align: center;
-        width: 100%;
-        padding: 4rem;
-
-    }
-
-    input[type=submit] {
-        background-color: orangered;
-        color: white;
-        font-size: 2vh;
-        margin: 1.5vh;
-        width: 50vh;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        text-align: center;
-    }
-
-    .break1 {
-        flex-basis: 100%;
-        width: 0;
-    }
-
-    .break {
-        flex-basis: 0;
-        width: 100%;
-    }
-
-    .con9 {
-
-        background-image: url("10.jpg");
-        margin: 3rem;
-        width: 56rem;
-        height: 48rem;
-        background-size: cover;
-
-    }
-
-    #h91 {
-        position: absolute;
-        color: white;
-        width: 56rem;
-        height: 10rem;
-        text-align: center;
-        font-weight: bolder;
-        background-color: #7DAA7B;
-        font-size: 3rem;
-        margin-top: 38rem;
-    }
-
-    .overlay {
-        position: absolute;
-        opacity: 0;
-
-        background: #7DAA7B;
-        width: 56rem;
-        height: 0;
-
-        cursor: pointer;
-        border-top-left-radius: 18.2rem;
-        border-bottom-right-radius: 4rem;
-        border-bottom-left-radius: 2rem;
-        border-top-right-radius: 2rem;
-    }
-
-    #h61 {
-        font-size: 3.5rem;
-
-        margin-left: 9rem;
-        margin-right: 9rem;
-    }
-
-    #h661 {
-        font-size: 3rem;
-    }
-
-    .con9:hover .overlay {
-        opacity: 1;
-        height: 48rem;
-        animation-name: a4;
-        animation-duration: 0.45s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-        animation-timing-function: ease-out;
-        transition: 0.5s ease;
-
-    }
-
-    @keyframes a4 {
-        0% {
-            transform: translateY(152px);
-            opacity: 0;
-        }
-
-        50% {
-            opacity: 0.5;
-        }
-
-        100% {
-            transform: translateY(0px);
-            opacity: 1;
-        }
-
-    }
-
-    .flexx {
-        display: contents;
-    }
-
-    .info {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-    }
-
-    #img6 {
-        height: 9rem;
-        width: 9rem;
-        margin: 0;
-    }
-    #w1
-    {
-        padding: 5rem;
-    }
-}
-
 @media only screen and (max-device-width:600px) {
     html {
         font-size: 17%;
     }
     .carousel-control-prev,
-    .carousel-control-next
-    {
-      width: 13rem !important;
-      height: 13rem;
-      border-radius: 30rem;
-      background-color: darkgreen;
-      opacity: 0.5 !important;
-      top: calc(50% - 25px) !important;
+    .carousel-control-next {
+        width: 13rem !important;
+        height: 13rem;
+        border-radius: 30rem;
+        background-color: darkgreen;
+        opacity: 0.5 !important;
+        top: calc(50% - 25px) !important;
     }
+
+    #carouselExampleFade .carousel-control-prev,
+    #carouselExampleFade .carousel-control-next {
+        width: 13rem !important;
+        height: 13rem;
+        border-radius: 30rem;
+        background-color: #7DAA7B;
+        opacity: 0.7 !important;
+        top: calc(40% - 25px) !important;
+    }
+
     .container8 {
         background-position: right top, left top, left bottom, right bottom;
         background-size: 50rem, 50rem, 45rem, 45rem;
@@ -639,7 +336,7 @@
     }
 
     #h661 {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     .con9:hover .overlay {
@@ -676,11 +373,19 @@
         font-weight: bolder;
         font-size: 4rem;
     }
-
+    input
+    {
+        background-color: rgba(255,255,255, 0);
+        color: white;
+        border-bottom: 1px solid white;
+        border-top: 0;
+        border-left: 0;
+        border-right: none;
+    }
     textarea {
         background-color: rgba(255, 255, 255, 0);
         color: white;
-        border-bottom: 5px solid white;
+        border-bottom: 1px solid white;
         border-top: 0;
         border-left: 0;
         font-size: 4rem;
@@ -868,10 +573,68 @@
     .sub {
         margin: 0;
     }
-
+    button[type=lets] {
+        background-color: #EC691F;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 10vh;
+        margin: 1vh;
+        padding: 3px 5px !important;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10rem;
+      }
+      .h23
+      {
+        margin: 0rem;
+      }
+    button[type=let] {
+        background-color: #F7BB26;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 9vh;
+        margin: 2vh;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10rem;
+      }
+      button[type=View] {
+        background-color: #EC691F;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 9vh;
+        margin: 2vh;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10rem;
+      }
+      button[type=CA] {
+        background-color: #EC691F;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 9vh;
+        margin: 2vh;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 2rem;
+      }
 }
 
-@media only screen and (min-device-width:822px) and (max-device-width:1280px) {
+@media only screen and (min-device-width:600px) and (max-device-width:1280px) {
     html {
         font-size: 37%;
     }
@@ -936,7 +699,7 @@
 
     #h41 {
         text-align: center;
-        }
+    }
 
     .container10 {
         display: flex;
@@ -1144,10 +907,11 @@
         margin-left: 9rem;
         margin-right: 9rem;
     }
-#h661
-{
-    font-size: 2.8rem;
-}
+
+    #h661 {
+        font-size: 2rem;
+    }
+
     .con9:hover .overlay {
         opacity: 1;
         height: 48rem;
