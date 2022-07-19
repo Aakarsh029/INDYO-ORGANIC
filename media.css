@@ -658,8 +658,8 @@
 
     #fruits {
         position: relative;
-        width: 40rem;
-        left: 15%;
+        width: 30rem;
+        left: 12%;
         overflow: hidden;
     }
 
@@ -675,20 +675,20 @@
         position: relative;
         width: 20rem;
         top: 50%;
+        left: -53%;
     }
 
     #go1 {
         position: relative;
         width: 30rem;
-        left: 0%;
-        bottom: 20%;
+        left: 53%;
     }
 
     #go2 {
         position: absolute;
         right: 30%;
         bottom: 10%;
-        width: 50rem;
+        width: 40rem;
     }
 
 
@@ -960,4 +960,63 @@
         width: 9rem;
         margin: 0;
     }
+    button[type=lets] {
+        background-color: #EC691F;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 10vh;
+        margin: 1vh;
+        padding: 3px 5px !important;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10rem;
+      }
+      .h23
+      {
+        margin: 0rem;
+      }
+    button[type=let] {
+        background-color: #F7BB26;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 9vh;
+        margin: 2vh;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10rem;
+      }
+      button[type=View] {
+        background-color: #EC691F;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 9vh;
+        margin: 2vh;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 10rem;
+      }
+      button[type=CA] {
+        background-color: #EC691F;
+        color: white;
+        font-size: 1.6vh;
+        font-weight: bolder;
+        width: 9vh;
+        margin: 2vh;
+        padding: 3px 5px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+        border-radius: 2rem;
+      }
 }
