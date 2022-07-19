@@ -6,14 +6,13 @@
   text-decoration: none;
   text-transform: capitalize;
 }
-#carouselExampleIndicators .active
-{
+
+#carouselExampleIndicators .active {
   background-color: #7DAA7B;
 }
 
 .carousel-control-prev,
-.carousel-control-next
-{
+.carousel-control-next {
   width: 7rem !important;
   height: 7rem;
   border-radius: 30rem;
@@ -21,9 +20,9 @@
   opacity: 0.7 !important;
   top: calc(50% - 25px) !important;
 }
+
 #carouselExampleFade .carousel-control-prev,
-#carouselExampleFade .carousel-control-next
-{
+#carouselExampleFade .carousel-control-next {
   width: 7rem !important;
   height: 7rem;
   border-radius: 30rem;
@@ -31,22 +30,22 @@
   opacity: 0.7 !important;
   top: calc(40% - 25px) !important;
 }
-#h31
-{
+
+#h31 {
   width: 90%;
   font-size: 2rem;
 }
-#t1
-{
+
+#t1 {
   margin-top: 1rem;
   margin-left: .7rem;
 }
+
 html {
   overflow-x: hidden;
   font-size: 48.5%;
   font-family: 'Montserrat', sans-serif;
 }
-
 .ima {
   position: relative;
   overflow: hidden;
@@ -57,7 +56,7 @@ html {
 #fruits {
   position: relative;
   width: 30rem;
-  left: 15%;
+  left: 18%;
   overflow: hidden;
 }
 
@@ -92,15 +91,15 @@ html {
 #go {
   position: relative;
   width: 20rem;
-  top: -3%;
-  right: -15%;
+  top: 52%;
+  right: 50%;
 }
 
 #go1 {
   position: relative;
   width: 30rem;
-  top: 8%;
-}
+  top: 2%;
+left: 50%;}
 
 #go2 {
   position: absolute;
@@ -108,9 +107,6 @@ html {
   bottom: 10%;
   width: 40rem;
 }
-
-/* header */
-
 .header {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
@@ -681,10 +677,11 @@ rr
     height: 22rem;
   }
 }
-#h61
-{
+
+#h61 {
   margin-top: 20%;
 }
+
 /*#h61 {
   font-size: 2.6rem;
   font-weight: bolder;
@@ -744,11 +741,12 @@ input[type=radio]:checked {
   display: grid;
   width: 40rem;
 }
-.ino1
-    {
-        margin-top: 15rem;
-        margin-right: 7rem;
-    }
+
+.ino1 {
+  margin-top: 15rem;
+  margin-right: 7rem;
+}
+
 .c {
   overflow: hidden;
   margin: 0;
@@ -848,6 +846,7 @@ input[type=radio]:checked {
   margin: 5rem;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.35)
 }
+
 #cp {
   position: absolute;
   width: 90rem;
@@ -874,6 +873,7 @@ input[type=radio]:checked {
   margin-top: 7rem;
   font-weight: bolder;
 }
+
 button[type=lets] {
   background-color: #EC691F;
   color: white;
@@ -888,19 +888,23 @@ button[type=lets] {
   text-align: center;
   border-radius: 10rem;
 }
+
 .h14 {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
-.h23{
+
+.h23 {
   margin: 1rem 0 0 0;
 }
+
 #b1 {
   border: 3px solid darkgreen;
   border-radius: 15rem;
   width: 2rem;
   height: 2rem;
 }
+
 button[type=let] {
   background-color: #F7BB26;
   color: white;
@@ -915,6 +919,7 @@ button[type=let] {
   text-align: center;
   border-radius: 10rem;
 }
+
 button[type=View] {
   background-color: #EC691F;
   color: white;
@@ -929,6 +934,7 @@ button[type=View] {
   text-align: center;
   border-radius: 10rem;
 }
+
 button[type=CA] {
   background-color: #EC691F;
   color: white;
@@ -943,3 +949,54 @@ button[type=CA] {
   text-align: center;
   border-radius: 2rem;
 }
+
+/*.imageforhome {
+  width: 60rem;
+  height: 60rem;
+  display: flex;
+  justify-content: center;
+  margin-left: 7%;
+  background: url("./img/homeima/mango.png") top left no-repeat, url("./img/homeima/fruits\ grp.png") top right no-repeat,
+    url("./img/homeima/green\ orng.png") bottom left no-repeat, url("./img/homeima/orange1.png") bottom right no-repeat;
+  background-size: 50%, 60%, 50%, 50%;
+
+}
+.imageforhome img {
+  margin-top: 6%;
+  margin-left: 0%;
+  width: 40rem;
+  height: 50rem;
+
+}
+.imageforhome:hover {
+  background: url("./img/homeima/mango.png") top left no-repeat;
+  animation: shake 1s ease-in-out .1s infinite alternate;
+}
+.mango
+{
+  background: url("./img/homeima/mango.png") top left no-repeat;
+  background-size: 45%;
+}
+.fruits
+{
+  background:  url("./img/homeima/fruits\ grp.png") top right no-repeat;
+  background-size: 53%;
+  background-position:28rem 0;
+}
+.greenorange
+{
+  background: url("./img/homeima/green\ orng.png") bottom left no-repeat;
+  background-size: 50%;
+}
+.orange{
+  background:url("./img/homeima/orange1.png") bottom right no-repeat ;
+  background-size: 50%;
+}
+
+.mango:hover {
+  animation: shake 1s ease-in-out .1s infinite alternate;
+}
+
+.fruits:hover {
+  animation: shake 1s ease-in-out .1s infinite alternate;
+}*/
