@@ -208,7 +208,7 @@
     }
 
     .comma2 {
-        height: 35vh;
+        height: 30vh;
     }
 
     .comma2 img {
@@ -328,7 +328,7 @@
         border-top-right-radius: 2rem;
     }
 
-    #h61 {
+   /* #h61 {
         font-size: 5rem;
         text-align: center;
         margin-left: 23rem;
@@ -337,7 +337,7 @@
 
     #h661 {
         font-size: 3.5rem;
-    }
+    }*/
 
     .con9:hover .overlay {
         opacity: 1;
@@ -794,7 +794,7 @@
     }
 
     .comma2 {
-        height: 35vh;
+        height: 30vh;
     }
 
     .comma2 img {
@@ -901,7 +901,7 @@
         border-top-right-radius: 2rem;
     }
 
-    #h61 {
+  /*  #h61 {
         font-size: 3.5rem;
 
         margin-left: 9rem;
@@ -910,7 +910,7 @@
 
     #h661 {
         font-size: 2rem;
-    }
+    }*/
 
     .con9:hover .overlay {
         opacity: 1;

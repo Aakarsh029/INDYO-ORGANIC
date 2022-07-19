@@ -428,8 +428,6 @@ rr
   font-size: 6.5rem;
   text-align: center;
   font-weight: bolder;
-  margin-left: 5rem;
-  margin-right: 5rem;
 }
 
 .container8 {
@@ -502,6 +500,8 @@ rr
 #h44 {
   padding: 3.5rem;
   text-align: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .con4 {
@@ -638,7 +638,9 @@ rr
   text-align: center;
   display: block;
   color: white;
-  top: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
 }
 
 .con9:hover .overlay {
@@ -679,18 +681,20 @@ rr
     height: 22rem;
   }
 }
-
-#h61 {
+#h61
+{
+  margin-top: 20%;
+}
+/*#h61 {
   font-size: 2.6rem;
   font-weight: bolder;
   margin-top: 3rem;
   margin-left: 9rem;
   margin-right: 9rem;
 }
-
+*/
 #h661 {
   font-size: 1.8rem;
-  margin: 1.5rem 5rem 0 5rem;
 }
 
 
