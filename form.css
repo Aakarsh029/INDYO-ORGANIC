@@ -24,6 +24,7 @@ textarea
   font-size: 2rem;
   border-right: none;
     margin: 3vh;
+    margin-left: 0vh;
 }
 input[type=text], select, textarea {
     width: 100%; 
@@ -32,6 +33,7 @@ input[type=text], select, textarea {
     margin-top: 6px; /* Add a top margin */
     font-size: 2rem;
     margin-bottom: 16pbax; /* Bottom margin */
+    margin-left: 0vh;
     
   }
   input[type=email], select, textarea {
@@ -66,7 +68,6 @@ input[type=text], select, textarea {
   /* Add a background color and some padding around the form */
   .containerr {
     border-radius: 5px;
-    padding: 20px;
    width: -webkit-fill-available;
   }
   .submit

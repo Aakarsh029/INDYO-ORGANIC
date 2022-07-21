@@ -947,7 +947,10 @@ button[type=CA] {
   text-align: center;
   border-radius: 2rem;
 }
-
+#ht1
+{
+  font-size: 2.5rem;
+}
 /*.imageforhome {
   width: 60rem;
   height: 60rem;
