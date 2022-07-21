@@ -951,7 +951,7 @@ button[type=CA] {
 {
   font-size: 2.5rem;
 }
-/*.imageforhome {
+.imageforhome {
   width: 60rem;
   height: 60rem;
   display: flex;
@@ -969,6 +969,7 @@ button[type=CA] {
   height: 50rem;
 
 }
+/*
 .imageforhome:hover {
   background: url("./img/homeima/mango.png") top left no-repeat;
   animation: shake 1s ease-in-out .1s infinite alternate;
