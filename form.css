@@ -69,6 +69,8 @@ input[type=text], select, textarea {
   .containerr {
     border-radius: 5px;
    width: -webkit-fill-available;
+   margin: 3vh;
+   margin-top: 10vh;
   }
   .submit
   {

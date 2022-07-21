@@ -23,8 +23,8 @@
 
 #carouselExampleFade .carousel-control-prev,
 #carouselExampleFade .carousel-control-next {
-  width: 7rem !important;
-  height: 7rem;
+  width: 5rem !important;
+  height: 5rem;
   border-radius: 30rem;
   background-color: #7DAA7B;
   opacity: 0.7 !important;
@@ -368,6 +368,11 @@ rr
 .hc1 {
   float: right;
 }
+.hc2 {
+  float: right;
+  margin-right: 5vh;
+  margin-bottom: 5vh;
+}
 
 #hc1 {
   font-size: 2.5rem;
@@ -478,8 +483,12 @@ rr
   width: 25rem;
   padding: 2rem;
   background-color: #EEF4E9;
+  margin-top: 9%;
+  
 }
-
+.b{
+  margin-top: 14%;
+}
 .counter {
   font-size: 6rem;
   text-align: center;
@@ -600,22 +609,24 @@ rr
   border-bottom-left-radius: 2rem;
   border-top-right-radius: 2rem;
 }
-
-#h91 {
+.h91 {
   position: absolute;
   color: white;
   width: 44rem;
-  height: 6rem;
-  font-size: 2.2rem;
-  text-align: center;
-  font-weight: bolder;
+  height: 7rem;
   background-color: #7DAA7B;
   margin-top: 28rem;
   border: 10px;
   border-bottom-right-radius: 4rem;
   border-bottom-left-radius: 2rem;
 }
-
+#h91
+{
+  margin: 1rem;
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bolder;
+}
 .overlay {
   position: absolute;
   opacity: 0;
@@ -721,8 +732,6 @@ input[type=radio]:checked {
   background-image: url("./img/bg2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .em img {
@@ -740,6 +749,7 @@ input[type=radio]:checked {
   background-color: rgba(0, 0, 0, 0.15);
   display: grid;
   width: 40rem;
+  justify-content: center;
 }
 
 .ino1 {
@@ -968,6 +978,10 @@ button[type=CA] {
   width: 40rem;
   height: 50rem;
 
+}
+.trans
+{
+  margin: 12vh 0 12vh 0;
 }
 /*
 .imageforhome:hover {
